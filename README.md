@@ -10,7 +10,7 @@ Screen Recorder
 
 录屏原理
 =====
-** 注意 ** 你可以checkout  [32c005412](https://github.com/yrom/ScreenRecorder/tree/32c00541299e6ff56763e8f2254983008f03b24a) 查看原始的（不包含麦克风录制的）代码
+** 注意 ** 你可以checkout  [32c005412]() 查看原始的（不包含麦克风录制的）代码
 - `Display` 可以“投影”到一个 `VirtualDisplay`
 - 通过 `MediaProjectionManager` 取得的 `MediaProjection`创建`VirtualDisplay` 
 - `VirtualDisplay` 会将图像渲染到 `Surface`中，而这个`Surface`是由`MediaCodec`所创建的
